@@ -1,0 +1,148 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Lora', serif;
+    color: #2b2b2b;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/***** HEADER - ALL PAGES *****/
+header {
+    height: 80px;
+}
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #bbc085;
+    float: left;
+    padding: 5px 0px 0px 40px;
+}
+header nav {
+    float: right;
+    padding: 15px 40px 0px 0px;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    font-size: 20px;
+    color: #9b9b9b;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+/***** HOME PAGE-TOP SECTION *****/
+.top-section {
+    height: 750px;
+    background: url('../img/desk-background.png');
+}
+.top-section h2{
+    width: 800px;
+    font-size: 50px;
+    color: #9b9b9b;
+    padding: 80px 0px 0px 40px;
+    margin: 0;
+}
+/***** HOME PAGE-BOTTOM SECTION *****/
+.bottom-section {
+    background-color: #f9ceb7;
+    float:left;
+}
+.bottom-section h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bottom-section p {
+    font-size: 16px;
+}
+.section-one,
+.section-two,
+.section-three {
+	 width: 300px;
+   float: left;
+   text-align: center;
+   padding: 50px 50px 60px 50px;
+}
+
+/***** FOOTER-ALL PAGES *****/
+footer {
+    clear: both;
+    height: 80px;
+    background-color: #ebebeb;
+}
+.email a {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a67962;
+    text-decoration: none;
+    padding: 30px 0px 0px 40px;
+}
+.social-media {
+    float: right;
+}
+.social-media ul {
+    margin: 0 auto;
+}
+.social-media ul li {
+    display: inline;
+}
+.social-media ul li a img {
+    padding: 30px 40px 0px 20px;
+}
+
+/***** ABOUT PAGE *****/
+.about {
+    float: left;
+    background-color: #f9ceb7;
+}
+.left-side,
+.right-side {
+    width: 600px;
+    float: left;
+}
+.left-side h1 {
+    margin: 0 auto;
+    padding: 50px 0px 20px 40px
+}
+.first-paragraph,
+.second-paragraph {
+    padding: 0px 0px 0px 40px;
+}
+.right-side img {
+    border: 2px solid white;
+    margin: 25px 25px 25px 40px;
+}
+
+/***** WORK PAGE *****/
+.work {
+    float: left;
+    background-color: #f9ceb7;
+}
+.project-one-leftside,
+.project-one-rightside,
+.project-two-leftside,
+.project-two-rightside,
+.project-three-leftside,
+.project-three-rightside {
+    width: 600px;
+    float: left;
+    height: 400px;
+}
+.project-one-leftside h2,
+.project-two-rightside h2,
+.project-three-leftside h2{
+    margin: 0 auto;
+    padding: 60px 0px 30px 40px;
+}
+.project-one-leftside p,
+.project-two-rightside p,
+.project-three-leftside p {
+    margin: 0 auto;
+    padding: 0px 40px 0px 40px;
+}
+.project-one-rightside img,
+.project-two-leftside img,
+.project-three-rightside img{
+    padding: 40px 0px 0px 50px;
+}
